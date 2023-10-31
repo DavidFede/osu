@@ -4,18 +4,21 @@ body{
     padding: 0;
     margin: 0;
     background-color: black;
+    background-image: url(/res/img/ogMpOv.webp);
+    background-repeat: no-repeat;
+    background-size: 205vh;
 }
 #point {
     width: 50px;
     height: 50px;
-    border: 3px solid green;
-    background-color: greenyellow;
+    border: 3px solid rgb(0, 21, 128);
+    background-color: rgb(53, 141, 171);
     border-radius: 100%;
     position: absolute;
     filter: blur(1px);
     top: 500px;
     left: 200px;
-    transition: 0.3s ease;
+    transition: 2s ease;
     text-align: center;
     font-size: 21px;
     font-weight: bold;
@@ -25,7 +28,7 @@ body{
 }
 #point:hover{
     transform: scale(1.02);
-    box-shadow: 0 0 10px greenyellow;
+    box-shadow: 0 0 10px rgb(195, 196, 192);
 }
 #startGame{
     color: white;
@@ -42,4 +45,7 @@ body{
 #startGame:hover{
     transform: scale(1.02);
     box-shadow: 0 0 50px red;
+}
+#timeInfo{
+    color: white;
 }
